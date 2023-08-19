@@ -1,7 +1,11 @@
+import express from "express";
 
-const express = import('express'); 
+import { createRequire } from "module";
 
-const bodyParser = import("body-parser");
+const require = createRequire(import.meta.url);
+const express = require('express'); 
+
+const bodyParser = require("body-parser");
 
 const app = express();
 
