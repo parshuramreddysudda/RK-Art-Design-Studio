@@ -8,14 +8,14 @@
   "name": "rk-art-and-designs",
   "version": "1.0.0",
   "description": "This is the RK art and design studio's website.",
-  "main": "index.js",
-  "type": "module",
+  "main": "app.js",
+  "type":"commonjs",
   "engines": {
     "node": "18.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "author": "Adithya Sambari (AdS)",
   "license": "ISC"
