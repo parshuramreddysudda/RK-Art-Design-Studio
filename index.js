@@ -1,7 +1,7 @@
 
-const express = require('express'); 
+const express = import('express'); 
 
-const bodyParser = require("body-parser");
+const bodyParser = import("body-parser");
 
 const app = express();
 
