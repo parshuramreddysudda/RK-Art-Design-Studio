@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "description": "This is the RK art and design studio's website.",
   "main": "app.js",
-  "type":"commonjs",
+  "type":"module",
   "engines": {
     "node": "18.x"
   },
